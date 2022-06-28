@@ -21,7 +21,7 @@ from ulab import numpy as np
 from ulab.scipy.signal import spectrogram
 
 
-import random
+# import random
 import time
 # import board
 # import busio
@@ -233,7 +233,7 @@ while True:
 
     # If the switch has been pressed interrupt start a special message
     if not switch.value:
-        Score("SCORE!", YELLOW_TEXT, BLUE_RING, 2)
+        Score("JONK", YELLOW_TEXT, BLUE_RING, 1)
    
     
     try:
